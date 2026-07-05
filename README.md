@@ -114,3 +114,11 @@ Adresler:
 | `docs/demo-notes.md` | Final demo konuşma planı |
 | `docs/test-report.md` | Lokal doğrulama komutları ve sonuçları |
 | `docs/bootcamp-compliance.md` | Bootcamp kılavuzu uyum kontrolü |
+
+## Katkıda Bulunanlar
+
+| İsim | GitHub |
+| --- | --- |
+| Semih Bekdaş | [@semihbekdas](https://github.com/semihbekdas) |
+| Eren Altunay | [@EERREENN](https://github.com/EERREENN) |
+| Umut Canzığ | [@umutcanzgl](https://github.com/umutcanzgl) |
