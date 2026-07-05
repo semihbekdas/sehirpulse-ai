@@ -1,6 +1,6 @@
 # ŞehirPulse AI
 
-ŞehirPulse AI, vatandaşlardan gelen talep, şikayet ve ihbarları otomatik sınıflandıran, ilgili belediye birimine yönlendiren ve admin panelinde görünür hale getiren Sprint 1 MVP projesidir.
+ŞehirPulse AI, vatandaşlardan gelen talep, şikayet ve ihbarları otomatik sınıflandıran,  ilgili belediye birimine yönlendiren ve admin panelinde görünür hale getiren Sprint 1 MVP projesidir.
 
 ## Bootcamp Notu
 
