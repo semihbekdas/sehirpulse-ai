@@ -6,11 +6,24 @@ Vatandaş talebi oluşturulabilen, backend'e kaydedilebilen, temel AI kategori/b
 
 ## Takım Rolleri
 
+Bootcamp kılavuzunda standart ekip yapısı Product Owner, Scrum Master ve 3 Developer olmak üzere 5 kişidir. Bu projede ekipten ayrılan/aktif devam etmeyen üyeler sonrası Sprint 1, 3 aktif kişiyle yürütülmüştür. Bu nedenle roller birleştirilmiş; Product Owner ve Scrum Master da aktif geliştirme sorumluluğu almıştır.
+
 | Kişi | Rol | Ana Çıktı |
 | --- | --- | --- |
 | Kişi 1 | Product Owner + Frontend | Talep formu, admin liste, ürün dokümanları |
 | Kişi 2 | Scrum Master + Backend | Repo düzeni, FastAPI API, veritabanı, sprint dokümanları |
 | Kişi 3 | AI/Data | Kategori verisi, sınıflandırma, routing, AI README |
+
+## Bootcamp Sprint Beklentileriyle Uyum
+
+| Beklenti | Sprint 1 Karşılığı | Durum |
+| --- | --- | --- |
+| Product Backlog | `docs/product-backlog.md` | Tamamlandı |
+| Daily Scrum Notları | `docs/daily-notes.md` | Tamamlandı |
+| Sprint Board Updates | Issue listesi ve backlog tablosu | Hazır |
+| Ürün Durumu | Çalışan frontend/backend/AI MVP | Hazır |
+| Sprint Review | `docs/sprint-review-1.md` | Tamamlandı |
+| Sprint Retrospective | `docs/retrospective-1.md` | Tamamlandı |
 
 ## Gün Gün Uygulama Planı
 
@@ -55,4 +68,5 @@ Vatandaş talebi oluşturulabilen, backend'e kaydedilebilen, temel AI kategori/b
 - [x] Admin liste ekranı geliştirildi.
 - [x] Sprint review dokümanı hazır.
 - [x] Retrospective dokümanı hazır.
+- [x] Bootcamp kılavuzundaki sprint sonu kanıtları dokümante edildi.
 - [x] Backend smoke test ve frontend production build doğrulandı.

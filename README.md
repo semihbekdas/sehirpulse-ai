@@ -2,6 +2,16 @@
 
 ŞehirPulse AI, vatandaşlardan gelen talep, şikayet ve ihbarları otomatik sınıflandıran, ilgili belediye birimine yönlendiren ve admin panelinde görünür hale getiren Sprint 1 MVP projesidir.
 
+## Bootcamp Notu
+
+Bu repository, Yapay Zeka ve Teknoloji Akademisi Bootcamp 2026 sürecindeki proje yönetimi beklentilerine göre düzenlenmiştir. Bootcamp kılavuzunda standart ekip yapısı 5 kişi olarak belirtilse de, ekipten ayrılan/aktif devam etmeyen üyeler sonrası proje 3 aktif kişiyle sürdürülmektedir. Kılavuzda belirtildiği gibi Product Owner ve Scrum Master rolleri yalnızca süreç yönetimi değil, aktif geliştirme sorumluluğu da alır.
+
+| Aktif Kişi | Scrum Rolü | Geliştirme Sorumluluğu |
+| --- | --- | --- |
+| Kişi 1 | Product Owner | Ürün kapsamı, backlog, frontend form ve admin ekranı |
+| Kişi 2 | Scrum Master | İletişim, repo düzeni, FastAPI backend ve entegrasyon |
+| Kişi 3 | Developer | AI/data modülü, kategori tahmini, routing ve test verisi |
+
 ## Sprint 1 Hedefi
 
 Sprint sonunda çalışan temel akış hazırdır:
@@ -103,3 +113,4 @@ Adresler:
 | `docs/retrospective-1.md` | Retrospective şablonu |
 | `docs/demo-notes.md` | Final demo konuşma planı |
 | `docs/test-report.md` | Lokal doğrulama komutları ve sonuçları |
+| `docs/bootcamp-compliance.md` | Bootcamp kılavuzu uyum kontrolü |
