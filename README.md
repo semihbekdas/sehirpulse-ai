@@ -1,73 +1,117 @@
-# ŞehirPulse AI
+# Takım İsmi
 
-ŞehirPulse AI, vatandaşlardan gelen talep, şikayet ve ihbarları otomatik sınıflandıran,  ilgili belediye birimine yönlendiren ve admin panelinde görünür hale getiren Sprint 1 MVP projesidir.
+Takım 124
 
-## Bootcamp Notu
+---
 
-Bu repository, Yapay Zeka ve Teknoloji Akademisi Bootcamp 2026 sürecindeki proje yönetimi beklentilerine göre düzenlenmiştir. Bootcamp kılavuzunda standart ekip yapısı 5 kişi olarak belirtilse de, ekipten ayrılan/aktif devam etmeyen üyeler sonrası proje 3 aktif kişiyle sürdürülmektedir. Kılavuzda belirtildiği gibi Product Owner ve Scrum Master rolleri yalnızca süreç yönetimi değil, aktif geliştirme sorumluluğu da alır.
+# Ürün ile İlgili Bilgiler
 
-| Aktif Kişi | Scrum Rolü | Geliştirme Sorumluluğu |
-| --- | --- | --- |
-| Kişi 1 | Product Owner | Ürün kapsamı, backlog, frontend form ve admin ekranı |
-| Kişi 2 | Scrum Master | İletişim, repo düzeni, FastAPI backend ve entegrasyon |
-| Kişi 3 | Developer | AI/data modülü, kategori tahmini, routing ve test verisi |
+## Takım Elemanları
 
-## Sprint 1 Hedefi
+- UmutCan Özgül – Product Owner
+- Eren Altunay– Scrum Master
+- Semih Bekdaş– Developer
 
-Sprint sonunda çalışan temel akış hazırdır:
+## Ürün İsmi
 
-```text
-Vatandaş talep formunu doldurur
-Frontend POST /tickets isteği gönderir
-Backend talebi AI modülüne analiz ettirir
-AI kategori, alt kategori, birim ve öncelik üretir
-Backend talebi SQLite veritabanına kaydeder
-Admin paneli GET /tickets ile talepleri listeler
+**ŞehirPulse AI**
+
+## Ürün Açıklaması
+
+ŞehirPulse AI, vatandaşların şehir yaşamında karşılaştıkları sorunları (trafik, altyapı, çevre vb.) bildirebildiği, yapay zekâ destekli öneri ve önceliklendirme sistemiyle bu bildirimleri ilgili birimlere yönlendiren dijital bir platformdur. Proje, bir bootcamp bitirme projesi kapsamında Scrum metodolojisiyle geliştirilmektedir.
+
+## Ürün Özellikleri
+
+- Kullanıcıların şehir sorunlarını (kategori, konum, açıklama ile) bildirebilmesi
+- AI destekli kategori ve öncelik önerisi
+- Admin panelinden bildirimlerin görüntülenmesi, durum ve önceliklerinin güncellenmesi
+- Swagger üzerinden API dokümantasyonu
+
+## Hedef Kitle
+
+- Şehir sakinleri
+- Belediye/yerel yönetim birimleri
+- Şehir altyapı ve hizmet takip ekipleri
+
+## Product Backlog URL
+
+[Miro Backlog Board]()
+
+---
+
+# Sprint 1
+
+**Sprint Notu:** Bu proje, bootcamp bitirme projesi olarak Scrum süreciyle geliştirilmiştir. 1 haftalık sprint döngüsünde ürün backlog'u önceliklendirilerek geliştirme yapılmıştır.
+
+**Tahmin Edilen Puan Tamamlanma Mantığı:** Sprint hedefine ulaşmak için gereken görevler backlog'dan seçilerek story point ile önceliklendirilmiştir.
+
+**Daily Scrum:** Daily Scrum toplantıları takım içi iletişim kanalı üzerinden metin ve/veya sesli olarak, günlük olarak gerçekleştirilmiştir. Daily Scrum kayıtlarına [buradan]() ulaşılabilir.
+
+## Uygulama Ekran Görüntüleri
+
+Sprint 1 sonunda, planlanan MVP uçtan uca çalışır durumdadır. Aşağıda uygulamanın gerçek ekran görüntüleri yer almaktadır.
+
+**Talep Formu**
+![Talep Formu](docs/screenshots/report-form.png)
+
+**Admin Paneli**
+![Admin Paneli](docs/screenshots/admin-panel.png)
+
+---
+
+## Sprint Hedefi
+
+```
+Kullanıcıların şehir sorunlarını bildirebileceği, AI destekli
+öneri sistemine sahip MVP'nin geliştirilmesi.
 ```
 
 ## Teknoloji Seti
 
-| Katman | Teknoloji | Amaç |
-| --- | --- | --- |
-| Frontend | React + Vite | Talep formu ve admin liste ekranı |
-| Backend | FastAPI | Ticket API ve AI entegrasyonu |
-| Veritabanı | SQLite + SQLAlchemy | Sprint 1 lokal veri kaydı |
-| AI | Python rule-based modüller | Kategori, routing ve temel öncelik |
-| Dokümantasyon | Markdown | Backlog, sprint planı, review, retrospective |
+| Katman        | Teknoloji                   | Amaç                                      |
+| ------------- | --------------------------- | ----------------------------------------- |
+| Frontend      | React + Vite                | Hızlı ve modern kullanıcı arayüzü         |
+| Backend       | FastAPI (Python)            | Hızlı ve hafif API sunucusu               |
+| Veritabanı    | SQLite + SQLAlchemy         | Basit ilişkisel veritabanı ve ORM         |
+| AI            | Python tabanlı öneri motoru | Kategori/öncelik öneri sistemi            |
+| Dokümantasyon | Markdown                    | Raporlama, sprint planı, sunum içerikleri |
 
 ## Klasör Yapısı
 
-```text
-.
-├── ai/
-│   ├── data/
-│   ├── classify.py
-│   ├── priority_basic.py
-│   └── routing.py
+```
+sehirpulse-ai-main/
 ├── backend/
 │   ├── app/
+│   │   ├── main.py
+│   │   ├── ai_adapter.py
+│   │   ├── models/
+│   │   └── schemas/
 │   └── requirements.txt
 ├── frontend/
 │   ├── src/
+│   │   ├── App.jsx
+│   │   ├── components/
+│   │   └── services/
 │   └── package.json
-├── docs/
-├── screenshots/
-└── README.md
+├── ai/
+│   └── ...
+└── docs/
+    └── screenshots/
 ```
 
 ## Hızlı Başlangıç
 
-Backend:
+**Backend:**
 
 ```bash
 cd backend
-python3 -m venv .venv
-source .venv/bin/activate
+python -m venv .venv
+.venv\Scripts\Activate.ps1      # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
-Frontend:
+**Frontend:**
 
 ```bash
 cd frontend
@@ -75,50 +119,55 @@ npm install
 npm run dev
 ```
 
-Adresler:
+## Adresler
 
-| Servis | URL |
-| --- | --- |
-| Frontend | `http://localhost:5173/report` |
-| Admin Panel | `http://localhost:5173/admin/tickets` |
-| Backend API | `http://localhost:8000` |
-| Swagger | `http://localhost:8000/docs` |
+| Servis                       | URL                                 |
+| ---------------------------- | ----------------------------------- |
+| Frontend – Talep Formu       | http://localhost:5173/report        |
+| Frontend – Admin Paneli      | http://localhost:5173/admin/tickets |
+| Backend API                  | http://localhost:8000               |
+| Swagger (API Dokümantasyonu) | http://localhost:8000/docs          |
 
 ## Demo Senaryosu
 
-1. Backend ve frontend çalıştırılır.
-2. `/report` ekranında örnek talep girilir: `Mahallemizdeki sokak lambası 3 gündür yanmıyor.`
-3. Form gönderilir.
-4. Backend talebi kaydeder ve AI sonucu üretir.
-5. `/admin/tickets` ekranında talep `Aydınlatma` kategorisi ve `Aydınlatma ve Enerji İşleri` birimiyle görünür.
+1. Kullanıcı arıza/sorun bildirir (kategori, konum, açıklama girer).
+2. Form gönderilir.
+3. Backend kaydı oluşturur ve AI servisi kategori/öncelik önerisi üretir.
+4. Admin panelinden bildirimler görüntülenir; kategori, öncelik ve durum güncellenebilir.
 
 ## Ana API Endpointleri
 
-| Method | Path | Açıklama |
-| --- | --- | --- |
-| GET | `/health` | API sağlık kontrolü |
-| POST | `/tickets` | Yeni talep oluşturma |
-| GET | `/tickets` | Talepleri listeleme |
-| GET | `/tickets/{id}` | Tek talep detayı |
+| Method | Endpoint | Açıklama                                                 |
+| ------ | -------- | -------------------------------------------------------- |
+| GET    | /health  | API sağlık kontrolü                                      |
+| GET    | /tickets | Tüm bildirimleri listeleme                               |
+| POST   | /tickets | Yeni bildirim oluşturma (AI kategori/öncelik önerisiyle) |
 
 ## Sprint 1 Dokümanları
 
-| Dosya | İçerik |
-| --- | --- |
-| `docs/product-definition.md` | Ürün tanımı, hedef kitle, MVP sınırı |
-| `docs/product-backlog.md` | User story ve issue listesi |
-| `docs/sprint-1.md` | Gün gün sprint uygulama planı |
-| `docs/daily-notes.md` | Daily toplantı şablonu ve örnek notlar |
-| `docs/sprint-review-1.md` | Review akışı ve demo notları |
-| `docs/retrospective-1.md` | Retrospective şablonu |
-| `docs/demo-notes.md` | Final demo konuşma planı |
-| `docs/test-report.md` | Lokal doğrulama komutları ve sonuçları |
-| `docs/bootcamp-compliance.md` | Bootcamp kılavuzu uyum kontrolü |
+| Konu                                  | İçerik                                        |
+| ------------------------------------- | --------------------------------------------- |
+| Uygulama Ekran Görüntüleri            | Talep formu ve admin paneli ekran görüntüleri |
+| User Story ve Backlog                 | Product backlog, user story listesi           |
+| Ürün Planı ve Sprint Planlaması       | Sprint planlama dokümanı                      |
+| Daily Scrum Kayıtları ve Retrospektif | Günlük toplantı notları, sprint retrospektif  |
+
+---
+
+## Sprint Review
+
+_(Sprint 1 sonunda değerlendirilen kazanımlar, eksikler ve bir sonraki sprint için alınan kararlar buraya eklenecek.)_
+
+## Sprint Retrospektif
+
+_(Takımın süreç içinde iyi giden ve geliştirilmesi gereken noktalarına dair değerlendirmeler buraya eklenecek.)_
+
+---
 
 ## Katkıda Bulunanlar
 
-| İsim | GitHub |
-| --- | --- |
+| İsim         | GitHub                                         |
+| ------------ | ---------------------------------------------- |
 | Semih Bekdaş | [@semihbekdas](https://github.com/semihbekdas) |
-| Eren Altunay | [@EERREENN](https://github.com/EERREENN) |
-| Umut Canzığ | [@umutcanzgl](https://github.com/umutcanzgl) |
+| Eren Altunay | [@EERREENN](https://github.com/EERREENN)       |
+| Umut Canzığ  | [@umutcanzgl](https://github.com/umutcanzgl)   |
