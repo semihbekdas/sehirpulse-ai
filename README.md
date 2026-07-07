@@ -55,7 +55,7 @@ Sprint 1 sonunda, planlanan MVP uçtan uca çalışır durumdadır. Aşağıda u
 ![Talep Formu](docs/screenshots/report-form.png)
 
 **Admin Paneli**
-![Admin Paneli](docs/screenshots/admin-panel.png)
+![Admin Paneli](docs/screenshots/admin-ticket-list.png)
 
 ---
 
