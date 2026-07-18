@@ -1,10 +1,8 @@
 # Screenshots
 
-Sprint review veya final demo sirasinda alinacak ekran goruntuleri bu klasore eklenir.
+Aktif ekran görüntüleri tek kaynak olarak `docs/screenshots/` klasöründe tutulmaktadır:
 
-Beklenen dosyalar:
+- `docs/screenshots/report-form.png`
+- `docs/screenshots/admin-ticket-list.png`
 
-- `report-form.png`: Vatandas talep formu.
-- `admin-ticket-list.png`: Admin talep listesi.
-
-Not: Kod ve API smoke testleri tamamlandi; ekran goruntuleri demo calistirildigi ortamda alinmalidir.
+Bu klasör geriye dönük repository yapısını korumak için bırakılmıştır; yeni görseller `docs/screenshots/` altına eklenmelidir.

@@ -1,4 +1,4 @@
-# SehirPulse AI - Sprint 1 Teslim Durumu
+# ŞehirPulse AI - Teslim Durumu ve Final Backlog
 
 Bu dosya, `SehirPulse_AI_Sprint_1_Detayli_Plan (1).docx` belgesindeki Sprint 1 hedeflerinin uygulamadaki son durumunu takip eder.
 
@@ -89,3 +89,29 @@ Vatandas bir talep formu doldurur, frontend `POST /tickets` istegi gonderir, Fas
 - AI agent orkestrasyonu.
 - Canli deployment.
 - Gercek kullanici hesap sistemi.
+
+## Sprint 2 - Tamamlandı
+
+- [x] Gerçek talep formu ve admin paneli ekran görüntüleri eklendi.
+- [x] README mevcut kod ve bootcamp beklentileriyle uyumlu hâle getirildi.
+- [x] Frontend Vite 8.1.5 ve React 19.2.7 sürümlerine güncellendi.
+- [x] Frontend bağımlılık taraması 0 bilinen açıkla tamamlandı.
+- [x] Backend/AI smoke kontrolleri ve frontend production build çalıştırıldı.
+- [x] 150 satırlık veri setinde kategori ve öncelik regresyon ölçümü çıkarıldı.
+- [x] Sprint 2 Review ve Retrospective yazıldı.
+- [x] Sprint 3 için 55 SP'lik final planı hazırlandı.
+
+## Sprint 3 - Final (20 Temmuz-2 Ağustos 2026)
+
+- [ ] `PATCH /tickets/{id}` durum/öncelik update API'si.
+- [ ] Admin detay, filtre, arama ve update arayüzü.
+- [ ] Ayrı AI validation seti ve en az %75 priority uyumu.
+- [ ] Kalıcı backend/AI testleri.
+- [ ] GitHub Actions ile test ve frontend build.
+- [ ] Docker/temiz kurulum doğrulaması.
+- [ ] Mobil ve erişilebilirlik son kontrolü.
+- [ ] Kod dondurma: 31 Temmuz 2026.
+- [ ] 3 dakikalık YouTube videosu.
+- [ ] Ürün Teslim Formu: 2 Ağustos 2026, 23.59 öncesi.
+
+Harita, embedding tabanlı benzer talep tespiti ve PostgreSQL geçişi yalnızca P0 işler tamamlanırsa stretch goal olarak alınacaktır.

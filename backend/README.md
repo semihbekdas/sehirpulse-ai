@@ -1,6 +1,6 @@
-# SehirPulse AI Backend
+# ŞehirPulse AI Backend
 
-FastAPI tabanli ticket API. Sprint 1 kapsaminda vatandas talebini kaydeder, AI modulu ile kategori/birim tahmini yapar ve admin paneli icin listeleme endpointleri sunar.
+FastAPI tabanlı ticket API'sidir. Vatandaş talebini doğrular, AI modülü ile kategori/birim/öncelik analizi yapar, SQLite veritabanına kaydeder ve admin paneli için okuma endpointleri sunar.
 
 ## Kurulum
 
@@ -24,6 +24,8 @@ Swagger: `http://localhost:8000/docs`
 | GET | `/tickets` | Talepleri yeni kayittan eskiye listeler. |
 | GET | `/tickets/{id}` | Tek talep detayini dondurur. |
 
+Durum veya öncelik güncelleyen bir endpoint henüz yoktur. `PATCH /tickets/{id}` akışı Sprint 3 backlog'unda P0 olarak planlanmıştır.
+
 ## Ornek POST Body
 
 ```json
@@ -43,3 +45,15 @@ Swagger: `http://localhost:8000/docs`
 | --- | --- | --- |
 | `DATABASE_URL` | `sqlite:///./sehirpulse.db` | SQLAlchemy veritabani adresi. |
 | `FRONTEND_ORIGINS` | `http://localhost:5173,http://localhost:3000` | CORS izinli frontend adresleri. |
+
+## Doğrulama
+
+Sprint 2 smoke kontrolünde şu senaryolar başarıyla çalıştırılmıştır:
+
+- `GET /health`
+- `POST /tickets`
+- `GET /tickets`
+- `GET /tickets/{id}`
+- Geçersiz ID için `404`
+
+Kalıcı otomatik test dosyaları ve CI Sprint 3 planındadır.

@@ -1,18 +1,18 @@
-# Bootcamp Kılavuzu Uyum Kontrolü
+# Bootcamp 2026 Kılavuzu Uyum Kontrolü
 
 Bu dosya, Bootcamp 2026 Bursiyer Kılavuzu'ndaki proje yönetimi ve teslim beklentilerinin ŞehirPulse AI repository'sindeki karşılığını gösterir.
 
 ## Takım Durumu
 
-Kılavuzda takımların 5 kişi olması ve Product Owner, Scrum Master, 3 Developer yapısıyla ilerlemesi beklenmektedir. Bu projede ekipten ayrılan/aktif devam etmeyen üyeler olduğu için Sprint 1, 3 aktif kişiyle yürütülmektedir. Kılavuzda belirtildiği gibi takımda Bootcamp'e katılmayan kişiler varsa akademi ekibine bildirilebilir ve kalan kişilerle devam edilebilir.
+Kılavuzda takımların 5 kişi olması ve Product Owner, Scrum Master, 3 Developer yapısıyla ilerlemesi beklenmektedir. Bu projede ekipten ayrılan/aktif devam etmeyen üyeler olduğu için süreç 3 aktif kişiyle yürütülmektedir. Kılavuzda belirtildiği gibi takımda Bootcamp'e katılmayan kişiler varsa akademi ekibine bildirilebilir ve kalan kişilerle devam edilebilir.
 
 ## Güncel Rol Dağılımı
 
 | Aktif Kişi | Scrum Rolü | Teknik Sorumluluk | Kılavuzla Uyum |
 | --- | --- | --- | --- |
-| Kişi 1 | Product Owner | Frontend, ürün kapsamı, backlog, demo akışı | PO aktif geliştirmeye dahil |
-| Kişi 2 | Scrum Master | Backend, repo düzeni, API, sprint dokümanları | SM iletişim ve geliştirme sorumluluğu alıyor |
-| Kişi 3 | Developer | AI/data, kategori tahmini, routing, test verisi | Developer sprint hedefini teknik çıktıya dönüştürüyor |
+| Umut Can Özgül | Product Owner | Frontend, ürün kapsamı, backlog, demo akışı | PO aktif geliştirmeye dahil |
+| Eren Altunay | Scrum Master | Backend, repo düzeni, API, sprint dokümanları | SM iletişim ve geliştirme sorumluluğu alıyor |
+| Semih Bekdaş | Developer | AI/data, kategori tahmini, routing, test verisi | Developer sprint hedefini teknik çıktıya dönüştürüyor |
 
 ## Ürün Fikri ve Rollerini Belgeleme
 
@@ -37,9 +37,20 @@ Kılavuzda takımların 5 kişi olması ve Product Owner, Scrum Master, 3 Develo
 | Sprint Review | `docs/sprint-review-1.md` | Tamamlandı |
 | Sprint Retrospective | `docs/retrospective-1.md` | Tamamlandı |
 
+### Sprint 2 Kanıtları
+
+| Kılavuz Beklentisi | Repository Karşılığı | Durum |
+| --- | --- | --- |
+| Backlog dağıtma mantığı | `docs/sprint-2.md`, `docs/product-backlog.md` | Tamamlandı |
+| Daily Scrum notları | `docs/daily-notes.md` - 18 Temmuz karar özeti | Tamamlandı |
+| Sprint board updates | `docs/sprint-2.md` - board tablosu | Tamamlandı |
+| Ürün durumu | README ekran görüntüleri ve `docs/test-report.md` | Tamamlandı |
+| Sprint Review | `docs/sprint-review-2.md` | Tamamlandı |
+| Sprint Retrospective | `docs/retrospective-2.md` | Tamamlandı |
+
 ## Değerlendirme Kriterlerine Hazırlık
 
-| Kriter | Sprint 1 Karşılığı | Sonraki İyileştirme |
+| Kriter | Mevcut Karşılık | Sonraki İyileştirme |
 | --- | --- | --- |
 | Çalışan proje | Talep formu, API, AI routing, admin liste | Canlı deployment |
 | Özgünlük | Belediyeler için AI destekli talep yönlendirme | Harita ve benzer talep gruplama |
@@ -59,9 +70,16 @@ Bootcamp final tesliminde ayrıca şunlar gerekecektir:
 - 3 sprint sonunda proje yönetimi dokümanlarının eksiksiz olması.
 - Canlı demo linki varsa formda paylaşılması.
 
-## Sprint 2 İçin Kılavuza Göre Öncelikler
+Final sprint 20 Temmuz-2 Ağustos 2026 tarihleri arasındadır. Kod dondurma hedefi 31 Temmuz, final form hedefi 2 Ağustos 23.59'dan öncedir.
 
-- Sprint board kanıtlarını daha görünür hale getirmek için GitHub Issues/Projects kullanımı.
-- Ürün durumunu ekran görüntüleriyle belgelemek.
-- AI puanını artırmak için embedding tabanlı benzer talep tespiti veya LLM destekli sınıflandırma eklemek.
-- Canlıya alınabilirlik puanı için Docker veya basit deployment hazırlığı yapmak.
+## Sprint 3 İçin Kılavuza Göre Öncelikler
+
+- Çalışan proje ve ürün bütünlüğü: admin update/detay/filtre akışını tamamlamak.
+- Yapay zeka öğeleri: öncelik sonucunu ayrı validation setinde ölçmek ve iyileştirmek.
+- Temiz kod/mimari: kalıcı testler ve GitHub Actions eklemek.
+- Canlıya alınabilirlik: Docker ve temiz ortam kurulumunu doğrulamak.
+- Kullanıcı değeri: mobil/erişilebilirlik ve anlaşılır hata durumlarını tamamlamak.
+- Proje yönetimi: üç sprintin backlog, Daily, board, Review ve Retrospective linklerini README'den erişilebilir tutmak.
+- Final teslim: public repo, 3 dakikalık YouTube videosu ve Ürün Teslim Formu.
+
+Harita ve embedding tabanlı benzer talep tespiti, zorunlu P0 teslimleri riske atmayacaksa ek puan/stretch goal olarak değerlendirilecektir.

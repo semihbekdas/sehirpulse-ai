@@ -59,3 +59,17 @@ Sprint sonunda demo sırasında şu akış kesintisiz gösterilebilmelidir:
 ```text
 Talep formu → Backend kayıt → AI kategori/birim → Admin listesi
 ```
+
+## Sprint 2 Sonundaki Doğrulanmış Ürün Durumu
+
+- Sprint 1 uçtan uca MVP akışı çalışmaktadır.
+- Gerçek talep formu ve admin paneli ekran görüntüleri repository'dedir.
+- Admin paneli salt-okunur listeleme yapar; update akışı henüz yoktur.
+- 150 satırlık sentetik veri setinde kategori uyumu %88,7, öncelik uyumu %49,3 olarak ölçülmüştür.
+- Frontend production build ve backend smoke akışı başarılıdır.
+
+## Sprint 3 Ürün Hedefi
+
+Final sürümünde talep durumu/önceliği yönetilebilmeli, admin filtre/detay akışı tamamlanmalı, AI öncelik çıktısı ayrı validation setinde ölçülmeli, testler otomatik çalışmalı ve proje temiz ortamda kolayca kurulabilmelidir.
+
+Harita ve benzer talep tespiti bu zorunlu akışı riske atmayacaksa stretch goal olarak ele alınacaktır.

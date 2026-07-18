@@ -1,10 +1,10 @@
-# Screenshots
+# Uygulama Ekran Görüntüleri
 
-Sprint review veya final demo sirasinda alinacak ekran goruntuleri bu klasore eklenir.
+Bu klasör README ve sprint review belgelerinde kullanılan gerçek uygulama ekranlarını içerir.
 
-Beklenen dosyalar:
+| Dosya | İçerik | Durum |
+| --- | --- | --- |
+| `report-form.png` | Vatandaş talep formu | Güncel |
+| `admin-ticket-list.png` | Admin özet kartları ve talep listesi | Güncel |
 
-- `report-form.png`: Vatandas talep formu.
-- `admin-ticket-list.png`: Admin talep listesi.
-
-Not: Kod ve API smoke testleri tamamlandi; ekran goruntuleri demo calistirildigi ortamda alinmalidir.
+Yeni bir kullanıcı arayüzü değişikliği merge edildiğinde ilgili ekran görüntüsü yenilenmeli ve README'deki bağlantı kontrol edilmelidir.

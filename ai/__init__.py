@@ -1,1 +1,1 @@
-"""Rule-based AI helpers for SehirPulse Sprint 1."""
+"""Rule-based AI helpers for SehirPulse AI."""

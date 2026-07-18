@@ -37,8 +37,8 @@ Vatandaş talebi oluşturulabilen, backend'e kaydedilebilen, AI ile kategori/bir
 
 ## Ekran Görüntüleri
 
-- `screenshots/report-form.png`
-- `screenshots/admin-ticket-list.png`
+- `docs/screenshots/report-form.png`
+- `docs/screenshots/admin-ticket-list.png`
 
 ## Sprint 2 Önerileri
 

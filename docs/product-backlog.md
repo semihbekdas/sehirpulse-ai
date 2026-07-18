@@ -48,3 +48,29 @@
 | P0 | Talep formu, ticket API, DB kayıt, AI kategori/routing, admin liste |
 | P1 | Loading/error durumları, API testleri, AI testleri, sprint dokümanları |
 | P2 | Detay ekranı, harita, gelişmiş aciliyet, benzer kayıt gruplama |
+
+## Sprint 2 Backlog - Stabilizasyon ve Kanıtlandırma
+
+| ID | İş | Sorumlu | SP | Durum |
+| --- | --- | --- | ---: | --- |
+| S2-01 | Frontend araç zincirini ve Vite yapılandırmasını güncelle | Eren + Semih | 5 | Done |
+| S2-02 | Gerçek uygulama ekran görüntülerini repository'ye ekle | Umut Can + Eren | 5 | Done |
+| S2-03 | README ve Sprint 2 kanıt dokümanlarını tamamla | Semih + ortak review | 8 | Done |
+| S2-04 | AI, backend ve frontend doğrulamalarını yeniden çalıştır | Semih + Eren | 8 | Done |
+| S2-05 | Sprint 3 backlog ve risk planını hazırla | Tüm takım | 5 | Done |
+|  | **Toplam** |  | **31** | **31/31** |
+
+## Sprint 3 Backlog - Final
+
+| ID | Öncelik | İş | Sorumlu | SP | Durum |
+| --- | --- | --- | --- | ---: | --- |
+| S3-01 | P0 | Ticket durum/öncelik update API'si | Eren | 8 | To Do |
+| S3-02 | P0 | Admin detay, filtre, arama ve update UI'ı | Umut Can | 8 | To Do |
+| S3-03 | P0 | Ayrı validation seti ve priority iyileştirmesi | Semih | 13 | To Do |
+| S3-04 | P0 | Kalıcı backend/AI testleri ve GitHub Actions | Eren + Semih | 8 | To Do |
+| S3-05 | P0 | Docker ve temiz ortam kurulum doğrulaması | Eren + Umut Can | 8 | To Do |
+| S3-06 | P1 | Mobil, erişilebilirlik ve hata mesajı düzenlemeleri | Umut Can | 5 | To Do |
+| S3-07 | P0 | Final README, 3 dakikalık video ve teslim kontrolü | Tüm takım | 5 | To Do |
+|  |  | **Toplam** |  | **55** | **0/55** |
+
+Harita, embedding tabanlı benzer talep tespiti ve PostgreSQL geçişi Sprint 3 P0 işleri tamamlanırsa stretch goal olarak değerlendirilecektir. Ayrıntılı kabul kriterleri `docs/sprint-3-plan.md` içindedir.

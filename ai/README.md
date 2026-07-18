@@ -1,6 +1,6 @@
-# SehirPulse AI Modulu
+# ŞehirPulse AI Modülü
 
-Sprint 1 icin hedef, kusursuz model degil; backend'e kolay baglanan, aciklanabilir ve demo sirasinda guvenilir calisan bir AI katmani uretmektir.
+Bu klasör, backend'e kolay bağlanan ve karar gerekçesi üreten kural tabanlı kategori, routing ve öncelik katmanını içerir. Mevcut yaklaşım bir production makine öğrenmesi modeli değildir.
 
 ## Dosyalar
 
@@ -14,7 +14,7 @@ Sprint 1 icin hedef, kusursuz model degil; backend'e kolay baglanan, aciklanabil
 
 ## Yaklasim
 
-Ilk sprintte rule-based siniflandirma kullanilir. Her kategori icin anahtar kelimeler tanimlanir. Metinde gecen kelimeler puanlanir ve en yuksek puana sahip kategori secilir.
+Kural tabanlı sınıflandırmada her kategori için anahtar kelimeler tanımlanır. Metinde geçen kelimeler puanlanır ve en yüksek puana sahip kategori seçilir.
 
 Metin esleme katmani Turkce karakterli ve ASCII yazimlari birlikte destekler. Ornegin `çukur` ve `cukur`, `sokak lambası` ve `sokak lambasi` ayni kategoriye dusurulur.
 
@@ -22,7 +22,7 @@ Bu yontem:
 
 - Hizli entegre edilir.
 - Karar gerekcesi uretir.
-- Sprint 2'de TF-IDF, embedding veya LLM tabanli siniflandirmaya gecis icin temel sozlesmeyi korur.
+- Daha sonra TF-IDF, embedding veya LLM tabanlı sınıflandırmaya geçiş için temel sözleşmeyi korur.
 
 ## Hızlı Test
 
@@ -43,3 +43,22 @@ Beklenen sonuc:
 Kategori: Aydınlatma
 Birim: Aydınlatma ve Enerji İşleri
 ```
+
+## Sprint 2 Regresyon Ölçümü
+
+`data/sample_tickets_tr.csv` içindeki 150 sentetik örnekte:
+
+- Kategori etiketi uyumu: `133/150` (%88,7)
+- Öncelik etiketi uyumu: `74/150` (%49,3)
+
+Bu oranlar aynı veri seti ve mevcut kurallar üzerindeki regresyon kontrolüdür; bağımsız test başarımı değildir. Özellikle priority katmanı iyileştirmeye açıktır.
+
+## Bilinen Sınırlılıklar
+
+- Anahtar kelime çakışmaları çok kategorili metinlerde yanlış sonuca neden olabilir.
+- Kelime bağlamı, olumsuzluk ve ironi anlaşılmaz.
+- Güven skoru olasılık kalibrasyonu değildir; kural puanından türetilir.
+- Öncelik katmanı süre, risk ve etkilenen kişi bilgisini sınırlı kurallarla değerlendirir.
+- Production için ayrı eğitim/validation/test verisi yoktur.
+
+Sprint 3 hedefi, ayrı bir validation seti oluşturmak ve öncelik uyumunu en az %75'e çıkarmaktır.

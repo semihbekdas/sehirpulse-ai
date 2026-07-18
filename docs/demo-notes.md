@@ -1,4 +1,6 @@
-# Sprint 1 Demo Notları
+# Güncel Demo Notları
+
+Sprint 1'de kurulan temel akış Sprint 2 sonunda yeniden doğrulanmıştır. Aşağıdaki konuşma planı mevcut ürünü gösterir; Sprint 3 sonunda admin update ve deployment adımları eklenmelidir.
 
 ## Süre Hedefi
 
@@ -13,7 +15,7 @@
 | Backend ve veri akışı | Kişi 2 | 35 sn | Talep API'ye gelir, AI modülünden geçer ve veritabanına kaydedilir. |
 | AI kategori ve routing | Kişi 3 | 45 sn | Metin analiz edilir, kategori ve ilgili birim belirlenir. |
 | Admin liste | Kişi 1 + Kişi 2 | 30 sn | Talep admin panelinde görüntülenir. |
-| Sprint 2 hedefleri | Ortak | 20 sn | Aciliyet puanı, benzer kayıt gruplama ve harita eklenecek. |
+| Sprint 3 hedefleri | Ortak | 20 sn | Admin yönetim akışı, öncelik iyileştirmesi, otomatik test ve deployment tamamlanacak. |
 
 ## Demo İçin Güçlü Örnekler
 
@@ -35,3 +37,11 @@
 - [x] `GET /tickets` admin listesi verisini döndürüyor.
 - [x] `GET /tickets/{id}` detay ve `404` senaryoları çalışıyor.
 - [x] AI kategori ve birim çıktısı beklenen şekilde görünüyor.
+
+## Sprint 3 Sonunda Eklenecek Demo Adımları
+
+1. Admin bir talebin detayını açar.
+2. Talep durumunu ve gerektiğinde önceliğini günceller.
+3. Sayfa yenilendiğinde değişikliğin veritabanından kalıcı geldiği gösterilir.
+4. Otomatik test/build kontrolü ve çalıştırma yöntemi kısaca gösterilir.
+5. AI priority validation metriği ve sınırlılıkları açıklanır.
