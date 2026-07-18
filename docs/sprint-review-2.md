@@ -2,11 +2,13 @@
 
 ## Sprint Hedefi
 
-Çalışan MVP'yi yeniden doğrulamak, teknik ve dokümantasyon borcunu görünür hâle getirmek, gerçek ekran kanıtlarını eklemek ve final sprintini ölçülebilir bir backlog ile hazırlamak.
+Eren'in `sprint-2` branch'inde hazırladığı gerçek ekran, README ve Vite çıktıları üzerinden çalışan MVP'yi teslim seviyesine getirmek, teknik/dokümantasyon borcunu görünür hâle getirmek ve final sprintini ölçülebilir bir backlog ile hazırlamak.
 
 ## Tamamlanan İşler
 
-- Talep formu ve admin panelinin gerçek ekran görüntüleri repository'ye eklendi.
+- Eren'in `0f3f3a9` Sprint 2 commitinde README taslağı, talep/admin ekranları, Vite yapılandırması ve frontend bağımlılık düzeni eklendi.
+- Eren'in `bbbf9ec` main commitinde admin paneli görsel bağlantısı düzeltildi.
+- Bu iki commit mevcut agent branch'inin atası olarak korundu.
 - README; takım, ürün, gerçek özellikler, kurulum, API, Sprint 1, Sprint 2 ve Sprint 3 planını içerecek şekilde yenilendi.
 - Boş Miro ve Daily Scrum bağlantıları repository içi doğrulanabilir kaynaklarla değiştirildi.
 - Kodda bulunmayan durum/öncelik güncelleme özelliğinin tamamlandığı yönündeki yanlış ifade kaldırıldı.
@@ -14,6 +16,14 @@
 - Frontend production build, backend smoke ve AI kontrolleri tekrar çalıştırıldı.
 - 150 satırlık veri setinde kategori ve öncelik regresyon ölçümleri çıkarıldı.
 - Sprint 3 için 55 SP'lik P0/P1 planı oluşturuldu.
+
+## Branch Doğrulaması
+
+```text
+origin/sprint-2 (0f3f3a9) → origin/main (bbbf9ec) → agent branch (c4adc3e ve sonrası)
+```
+
+`sprint-2` branch'inin agent branch'inde bulunmayan benzersiz bir commit veya dosyası yoktur.
 
 ## Ürün Demosunda Gösterilebilen Akış
 

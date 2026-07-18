@@ -2,7 +2,8 @@
 
 ## İyi Gidenler
 
-- Çalışan uçtan uca MVP korunurken ekran görüntüleri ve teslim kanıtları görünür hâle getirildi.
+- Eren'in Sprint 2 branch'inde hazırladığı README, ekran görüntüleri ve Vite yapılandırması kaybolmadan mevcut geliştirme branch'ine taşındı.
+- Çalışan uçtan uca MVP korunurken teslim kanıtları görünür hâle getirildi.
 - Kod, README ve ekran görüntüleri birlikte incelenerek yanlış veya eksik ürün iddiaları ayıklandı.
 - Frontend bağımlılıklarının yerel kurulumla kilit dosyası arasındaki sürüm farkı fark edilip giderildi.
 - AI başarımı tahmin edilmek yerine veri seti üzerinde ölçüldü.
@@ -10,7 +11,7 @@
 
 ## Zorlanılan Noktalar
 
-- Sprint 2 başında yeni özellik hedefi ve story point planı repository'de belgelenmemişti.
+- Sprint 2 branch çıktıları committe bulunmasına rağmen hedef ve story point mantığı ayrı bir sprint belgesinde açıklanmamıştı.
 - Harici backlog/board bağlantısı paylaşılmamış, README'de boş linkler kalmıştı.
 - Mevcut dokümanların çoğu Sprint 1 dilinde kaldığı için güncel ürün durumu dağınıktı.
 - Öncelik kurallarının mevcut veri setindeki uyumu düşük kaldı.

@@ -49,14 +49,14 @@
 | P1 | Loading/error durumları, API testleri, AI testleri, sprint dokümanları |
 | P2 | Detay ekranı, harita, gelişmiş aciliyet, benzer kayıt gruplama |
 
-## Sprint 2 Backlog - Stabilizasyon ve Kanıtlandırma
+## Sprint 2 Backlog - Branch Çıktıları ve Teslim Tamamlama
 
 | ID | İş | Sorumlu | SP | Durum |
 | --- | --- | --- | ---: | --- |
-| S2-01 | Frontend araç zincirini ve Vite yapılandırmasını güncelle | Eren + Semih | 5 | Done |
-| S2-02 | Gerçek uygulama ekran görüntülerini repository'ye ekle | Umut Can + Eren | 5 | Done |
+| S2-01 | README taslağı, Vite yapılandırması ve frontend bağımlılık temelini oluştur | Eren | 8 | Done |
+| S2-02 | Gerçek uygulama ekranlarını ekle ve admin görselini düzelt | Eren | 5 | Done |
 | S2-03 | README ve Sprint 2 kanıt dokümanlarını tamamla | Semih + ortak review | 8 | Done |
-| S2-04 | AI, backend ve frontend doğrulamalarını yeniden çalıştır | Semih + Eren | 8 | Done |
+| S2-04 | AI/backend/frontend doğrulaması ve güvenli bağımlılık güncellemesi | Semih | 5 | Done |
 | S2-05 | Sprint 3 backlog ve risk planını hazırla | Tüm takım | 5 | Done |
 |  | **Toplam** |  | **31** | **31/31** |
 

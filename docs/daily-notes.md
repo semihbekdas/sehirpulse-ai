@@ -99,7 +99,8 @@ Katılanlar: Takım 124 üyeleri
 
 Tamamlananlar:
 
-- Sprint 2 geliştirme çıktılarının hazır olduğu paylaşıldı.
+- Eren, Sprint 2 geliştirme çıktılarının hazır olduğunu ve README'nin tamamlanması gerektiğini paylaştı.
+- Eren'in `sprint-2` branch'indeki README taslağı, ekran görüntüleri ve Vite yapılandırması başlangıç noktası olarak alındı.
 - README'de yapılan işlerin anlatılması ve uygulama ekran görüntülerinin yer alması gerektiği netleştirildi.
 - Referans yapı olarak Planova repository'sinin incelenmesi istendi.
 
