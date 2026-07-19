@@ -8,7 +8,7 @@ Takım 124
 
 ## Takım Elemanları
 
-- UmutCan Özgül – Product Owner
+- Umut Can Özgül – Product Owner
 - Eren Altunay– Scrum Master
 - Semih Bekdaş– Developer
 
