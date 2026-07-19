@@ -170,4 +170,4 @@ _(Takımın süreç içinde iyi giden ve geliştirilmesi gereken noktalarına da
 | ------------ | ---------------------------------------------- |
 | Semih Bekdaş | [@semihbekdas](https://github.com/semihbekdas) |
 | Eren Altunay | [@EERREENN](https://github.com/EERREENN)       |
-| Umut Canzığ  | [@umutcanzgl](https://github.com/umutcanzgl)   |
+| Umut Can Özgül  | [@umutcanzgl](https://github.com/umutcanzgl)   |
